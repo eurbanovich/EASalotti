@@ -1,0 +1,102 @@
+.sections {
+  &__item {
+    display: flex;
+    &:nth-child(odd) .sections__description:before {
+      position: absolute;
+      left: -1.3rem;
+
+      border-style: solid;
+      border-width: 1.25rem 1.3rem 1.25rem 0;
+      border-color: transparent @main-font-color transparent transparent;
+
+      content: "";
+    }
+    &:nth-child(even) .sections__img {
+      order: 1;
+    }
+    &:nth-child(even) .sections__description:after {
+      position: absolute;
+      right: -1.3rem;
+      border-style: solid;
+      border-width: 1.25rem 0 1.25rem 1.3rem;
+      border-color: transparent transparent transparent @main-font-color;
+
+      content: "";
+    }
+  }
+  &__img {
+    width: 50%;
+    &-link {
+      display: block;
+      position: relative;
+      &:hover .sections__cover-bg {
+        display: block;
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  &__cover-bg {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    background: @hover-background-color;
+    opacity: 0.7;
+  }
+  &__description {
+    position: relative;
+    display: flex;
+    width: 50%;
+    padding: 0 12.7rem;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #535353;
+  }
+  &__header {
+    position: relative;
+
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    line-height: 0.787;
+    &:before {
+      position: absolute;
+      bottom: -4.4rem;
+      left: 13%;
+      width: 73%;
+      content: "";
+      border: 0.1rem solid @hover-background-color;
+    }
+  }
+  &__content {
+    margin-top: 5.8rem;
+
+    font-size: 2.0rem;
+    font-family: @second-font-family;
+    text-align: center;
+    line-height: 1.2;
+  }
+  &__button {
+    margin-top: 3rem;
+    padding: 0.6rem 4.6rem;
+
+    font-size: 2.1rem;
+    line-height: 1.648;
+    text-transform: uppercase;
+    background: @main-background-color;
+    border: 0.1rem solid @main-background-color;
+    .link();
+    &:hover {
+      color: @hover-background-color;
+      background: none;
+      border: 0.1rem solid @hover-background-color;
+    }
+  }
+}

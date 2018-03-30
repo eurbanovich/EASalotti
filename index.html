@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASalotti</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="header-top">
+        <section class="header-top__line">
+          <div class="wrapper">
+            <form class="search">
+              <div class="search__field-box">
+                <input class="search__field" type="text" name="" value="" placeholder="Поиск товара..">
+                <svg class="search__icon" xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink"  width="16px" height="16px">
+                  <image  x="0px" y="0px" width="16px" height="16px" xlink:href="data:img/png; base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfiAw8QDALWBvf/AAAA4klEQVQoz33OvyvEcRzH8Yf7+lGnSAaGy6zsYrCYlKJkuIlZNmW0GAySQfcP+BdQSkqS6TISnRvIJGXR9+ry9TFc53vfu85rej97Pd+93z0aGbNsUqTi1Iu2RHbV/Kh6kvh2ZCArHAtKxsGoPYlzUVqvCrYzC+uCzRRv3Mu1Hb3ymELNfvtTtgRDjTGnT9whxMg3haqZDmHap/cm7AjmMvWUulKKgx58WPjjWW+CxdaNgrKg7NCBa0Ei+DLfqvRac6bi1YUNBXeC2JKuGXYrqCt2V/IuBYmV7kq/E88m/JPICL9KMj0R2yAmlgAAAABJRU5ErkJggg==" />
+                </svg>
+              </div>
+              <span class="time-work">Ежедневно с <time class="time-work__time" datetime="10:00">10:00</time> до <time class="time-work__time" datetime="21:00">21:00</span>
+            </form>
+
+            <div class="tel">
+              <a class="tel__number" href="tel:8 800 700 00 00">8 800 700 00 00</a>
+              <a class="tel__call" href="#">Заказать звонок</a>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="logo-nav">
+          <div class="logo-nav__logo">
+            <div class="wrapper">
+              <div class="logo-nav__logo-img"></div>
+              <span class="logo-nav__logo-tagline">Everything about sofa</span>
+            </div>
+          </div>
+
+          <nav class="logo-nav__nav">
+            <div class="wrapper">
+              <ul class="nav-list">
+                <li class="nav-list__item"><a href="#">Кресло и диван</a></li>
+                <li class="nav-list__item"><a href="#">Светильники и аксессуары</a></li>
+                <li class="nav-list__item"><a href="#">Спальные гарнитуры</a></li>
+                <li class="nav-list__item"><a href="#">Гостиные и столовые</a></li>
+                <li class="nav-list__item"><a href="#">Коллекции</a></li>
+                <li class="nav-list__item"><a href="#">Наши партнеры</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="top-text">
+            <div class="wrapper">
+              <span class="top-text__text">Скидки на</span><span class="top-text__text"> коллекции</span><span class="top-text__text"> от 20%</span>
+              <a class="top-button" href="#">Подробнее</a>
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+      <div class="fotorama" data-loop="true" data-arrows="false" data-autoplay="true">
+        <div class="shadow" data-img="./image/top-picture1.png">
+          <!-- <img src="./image/top-picture1.png"> -->
+          <div class="header__cover-bg"></div>
+        </div>
+        <div class="shadow" data-img="./image/top-picture2.png">
+          <div class="header__cover-bg"></div>
+        </div>
+        <div class="shadow" data-img="./image/top-picture3.png">
+          <div class="header__cover-bg"></div>
+        </div>
+        <!-- <img src="./image/top-picture2.png">
+        <img src="./image/top-picture3.png"> -->
+      </div>
+    </header>
+
+    <section class="advantages">
+      <div class="wrapper">
+        <h1 class="advantages__header">EASalotti – роскошь для вашего дома</h1>
+        <ul class="advantages__list">
+          <li class="advantages__list-item">
+            <span class="list-item__icon"></span>
+            <span class="list-item__description">Натуральные  материалы</span>
+          </li>
+          <li class="advantages__list-item">
+            <span class="list-item__icon"></span>
+            <span class="list-item__description">Изготовление  мебели вручную</span>
+          </li>
+          <li class="advantages__list-item">
+            <span class="list-item__icon"></span>
+            <span class="list-item__description">Индивидуальный  дизайн</span>
+          </li>
+          <li class="advantages__list-item">
+            <span class="list-item__icon"></span>
+            <span class="list-item__description">Итальянское качество</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sections">
+      <div class="sections__item">
+        <picture class="sections__img">
+          <a class="sections__img-link" href="#">
+            <img
+            src="./image/armchair-and-sofas.png"
+            alt="Кресло и диваны">
+            <div class="sections__cover-bg"></div>
+          </a>
+        </picture>
+        <div class="sections__description">
+          <h3 class="sections__header"></h3>
+          <p class="sections__content"></p>
+        </div>
+      </div>
+      <div class="sections__item">
+        <picture class="sections__img">
+          <a class="sections__img-link" href="#">
+            <img
+            src="./image/fixtures-and-accessories.png"
+            alt="Светильники и аксессуары">
+            <div class="sections__cover-bg"></div>
+          </a>
+        </picture>
+        <div class="sections__description">
+          <h3 class="sections__header">EASalotti – роскошь для вашего дома</h3>
+          <p class="sections__content">Комфортная и практичная, невероятно элегантная и неизменно стильная – это итальянская мебель.
+            Только в стране, где мастера свято берегут опыт столетий и гармонично сочетают его с новейшими технологиями, знают, какой
+            именно должна быть меблировка спальни, гостиной или кухни. Наша компания предлагает лучшие образцы мебельного искусства от
+            фабрики, давно известной за пределами страны.</p>
+            <a class="sections__button" href="#">Подробнее</a>
+        </div>
+      </div>
+      <div class="sections__item">
+        <picture class="sections__img">
+          <a class="sections__img-link" href="#">
+            <img
+            src="./image/bedroom sets.png"
+            alt="Спальные гарнитуры">
+            <div class="sections__cover-bg"></div>
+          </a>
+        </picture>
+        <div class="sections__description">
+          <h3 class="sections__header">EASalotti – роскошь для вашего дома</h3>
+          <p class="sections__content">Комфортная и практичная, невероятно элегантная и неизменно стильная – это итальянская мебель.
+            Только в стране, где мастера свято берегут опыт столетий и гармонично сочетают его с новейшими технологиями, знают, какой
+            именно должна быть меблировка спальни, гостиной или кухни. Наша компания предлагает лучшие образцы мебельного искусства от
+            фабрики, давно известной за пределами страны.</p>
+            <a class="sections__button" href="#">Подробнее</a>
+        </div>
+      </div>
+      <div class="sections__item">
+        <picture class="sections__img">
+          <a  class="sections__img-link" href="#">
+            <img
+            src="./image/living-and-dining-rooms.png"
+            alt="Гостиные и столовые">
+            <div class="sections__cover-bg"></div>
+          </a>
+        </picture>
+        <div class="sections__description">
+          <h3 class="sections__header"></h3>
+          <p class="sections__content"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="advice">
+      <div class="fotorama" data-loop="true" data-arrows="false" data-autoplay="true">
+        <div class="advice__item" data-img="./image/manufacturing.png">
+          <h2 class="advice__header">Процесс изготовления мебели</h2>
+          <a class="advice__button" href="#">Подробнее</a>
+        </div>
+        <div class="advice__item" data-img="./image/measurement.png">
+          <h2 class="advice__header">Как правильно сделать замеры</h2>
+          <a class="advice__button" href="#">Подробнее</a>
+        </div>
+        <div class="advice__item" data-img="./image/manufacturing.png">
+          <h2 class="advice__header">Процесс изготовления мебели</h2>
+          <a class="advice__button" href="#">Подробнее</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="application">
+      <div class="wrapper">
+        <form class="application__form" action="index.html" method="post">
+          <input class="application__tel" type="tel" placeholder="Введите номер телефона..." pattern="[0-9]{10}" required>
+          <button type="submit" name="button" class="application__button">Оставить заявку</button>
+          <!-- <a class="application__button" href="#">Оставить заявку</a> -->
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <ul class="footer__list">
+          <li class="footer__list-item">Кресло и диван
+            <ul class="item-list">
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кресло</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Диван</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кресло</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Диван</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кресло</a></li>
+            </ul>
+          </li>
+          <li class="footer__list-item">Светильники и аксессуары
+            <ul class="item-list">
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Светильники</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Аксессуары</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Светильники</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Аксессуары</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Светильники</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Аксессуары</a></li>
+            </ul>
+          </li>
+          <li class="footer__list-item">Спальные гарнитуры
+            <ul class="item-list">
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кровать</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Комод</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кровать</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Комод</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Кровать</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Комод</a></li>
+            </ul>
+          </li>
+          <li class="footer__list-item">Гостиные и столовые
+            <ul class="item-list">
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Гостиные</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Столовые</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Гостиные</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Столовые</a></li>
+              <li class="item-list__item"><a class="item-list__item-link" href="#">Гостиные</a></li>
+            </ul>
+          </li>
+          <li class="footer__list-item">Контакты
+            <address class="address">
+              <span class="address__text">м. Серпуховская, Павелецкая 1-й Щипковский переулок, дом 4</span>
+              <span class="address__text">Ежедневно с <time class="address__time" datetime="10:00">10:00</time> до <time class="address__time" datetime="21:00">21:00</time></span>
+              <a class="address__tel" href="tel:88007000000">8 800 700 00 00</a>
+            </address>
+            <a class="footer__button" href="#">Заказать дизайн проект</a>
+            <div class="social">
+              <a class="social-icon" href="#"></a>
+              <a class="social-icon" href="#"></a>
+              <a class="social-icon" href="#"></a>
+              <a class="social-icon" href="#"></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+
+  </body>
+</html>
